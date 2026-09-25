@@ -1,0 +1,11 @@
+{
+  "name": "canvas-city-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
