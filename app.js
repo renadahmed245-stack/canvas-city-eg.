@@ -111,7 +111,6 @@ $('.checkout').addEventListener('click', async () => {
   try { const result = await shop.checkout(bag); window.location.assign(result.url); }
   catch (error) { toast(error.message); button.textContent = 'Continue to checkout'; renderCart(); }
 });
-$('.newsletter').addEventListener('submit', event => { event.preventDefault(); toast('Email updates are opening soon.'); });
 $('.search-toggle').addEventListener('click', () => { $('#shop').scrollIntoView({ behavior: 'smooth' }); $('#product-search').focus(); });
 $('.menu-button').addEventListener('click', event => { const open = $('.nav').classList.toggle('open'); event.currentTarget.setAttribute('aria-expanded', open); });
 document.querySelectorAll('.nav a').forEach(link => link.addEventListener('click', () => { $('.nav').classList.remove('open'); $('.menu-button').setAttribute('aria-expanded', 'false'); }));
