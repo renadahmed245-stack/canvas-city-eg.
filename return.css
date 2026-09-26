@@ -1,0 +1,9 @@
+
+  body{display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px}
+  .panel{max-width:480px}
+  .panel h1{font-family:var(--display);font-size:clamp(32px,5vw,52px);margin-bottom:16px}
+  .panel p{color:var(--muted);margin-bottom:28px}
+  .status-pill{display:inline-block;padding:8px 16px;font-weight:700;text-transform:uppercase;font-size:12px;margin-bottom:20px}
+  .status-pill.pending{background:#333;color:#ddd}
+  .status-pill.paid{background:#1b8a3c;color:white}
+  .status-pill.failed{background:#a32c2c;color:white}

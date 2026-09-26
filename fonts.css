@@ -1,0 +1,6 @@
+/* Licensed Google Fonts replacing the previous embedded/unlicensed font files.
+   Rubik One   -> heavy display headlines (was "If")
+   Rowdies     -> bold nav / logo lockup (was "RUSTY ATTACK DEMO" / "MAELSTROM")
+   Bungee      -> graffiti-style spray word (was "Cintarini" / "MARSNEVENEKSK")
+   Ropa Sans   -> body copy (was implicit fallback, now primary) */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+One&family=Rowdies:wght@300;400;700&family=Bungee&family=Ropa+Sans&display=swap");
